@@ -47,14 +47,15 @@ public class Contact {
 	 * @param newOrganization
 	 */
 	public Contact(String newFirstName, String newLastName, String newTitle, String newOrganization) {
-		// TODO - implement Contact.Contact
-		throw new UnsupportedOperationException();
+            setFirstName(firstName);
+            setLastName(lastName);
+            setTitle(title);
+            setOrganization(organization);
 	}
 
 	@Override
 	public String toString() {
-		// TODO - implement Contact.toString
-		throw new UnsupportedOperationException();
+            return firstName + " " + lastName;
 	}
 
 }

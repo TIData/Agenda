@@ -23,13 +23,12 @@ public class Location {
 	 */
 	public Location(String newLocation) {
 		// TODO - implement Location.Location
-		throw new UnsupportedOperationException();
+                setLocation(newLocation);
 	}
 
 	@Override
 	public String toString() {
-		// TODO - implement Location.toString
-		throw new UnsupportedOperationException();
-	}
+            return location;
+        }
 
 }

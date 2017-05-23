@@ -75,8 +75,7 @@ public class Appointment {
 	 * @param newAttendees
 	 */
 	public void setAttendees(java.util.List<Contact> newAttendees) {
-		// TODO - implement Appointment.setAttendees
-		throw new UnsupportedOperationException();
-	}
+            attendees = newAttendees;
+        }
 
 }
